@@ -1,0 +1,310 @@
+body {
+  margin: 0;
+  background-color: white;
+  text-align: center;
+  color: #9B5CBD;
+  font-family: 'Roboto', sans-serif;
+}
+
+#wrapper {
+    margin-left:auto;
+    margin-right:auto;
+    max-width: 1980px;
+}
+
+.navcontainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+
+.navbar {
+  background-color: #FFF2FF;
+  max-width: 800px;
+  padding: 20px;
+  height: 100%;
+}
+
+.navbar a{
+  padding: 20px 30px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: #253476;
+}
+
+.navbar a.active {
+  color: #B5449C;
+}
+
+.navbar a:hover {
+  //color: #B5449C;
+  transition-duration: 0.4s;
+  background-color: #E9D8F6;
+}
+
+.title {
+  font-size: 100px;
+  text-align: left;
+  margin: 0;
+}
+
+
+h1{
+  font-size: 80px;
+  font-family: 'Roboto', sans-serif;
+  background: -webkit-linear-gradient(180deg, #253476 5.73%, #429AC0 32.29%, #B5449C 78.65%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: left;
+}
+h2{
+  font-size: 60px;
+  font-family: 'Roboto', sans-serif;
+  background: -webkit-linear-gradient(180deg, #253476 5.73%, #429AC0 32.29%, #B5449C 78.65%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: left;
+}
+
+.journal {
+  background: -webkit-linear-gradient(180deg, #253476 5.73%, #429AC0 32.29%, #B5449C 78.65%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+
+h2 {
+  padding-left: 1vw;
+  text-align: center;
+  color: #253476;
+  font-size: 1rem;
+}
+
+h3 {
+  text-align: left;
+  padding-left: 2em;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.5em;
+  letter-spacing: 0.03em;
+  color: #4BB8DB;
+}
+
+h4 {
+  font-size: 40px;
+  font-family: 'Roboto', sans-serif;
+  background: -webkit-linear-gradient(180deg, #253476 5.73%, #429AC0 32.29%, #B5449C 78.65%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.container1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: left;
+}
+
+.left {
+  //background-color: green;
+  padding-left: 5em;
+  text-align: left;
+}
+
+.flex {
+  flex: 1;
+  //border: 3px solid red;
+}
+
+.flexnav {
+  flex: 1;
+  width: 100%;
+}
+
+.image {
+  //background-color: red;
+}
+
+.desc {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 150%;
+
+  /* or 150% */
+
+  color:#9B5CBD;
+}
+
+.solid {
+  border: 4px solid #FFF2FF;
+  margin: 0;
+}
+
+.flexbutton {
+  display: flex; 
+  justify-content: center;
+}
+
+.flex2 {
+  flex: 1;
+}
+
+.buttons {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  text-decoration: none;
+  display: inline-block;
+  width: 30%;
+  text-align: center;
+  background: -webkit-linear-gradient(180deg, #253476 5.73%, #429AC0 32.29%, #B5449C 78.65%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border: 2px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(180deg, #253476 0%, #3981AA 39.06%, #AE33B9 100%);
+  padding: 15px 0px;
+  transition-duration: 0.4s;
+  margin-right: 20px;
+
+
+}
+
+.buttons:hover {
+  box-shadow: 0px 2px 8px 0px #4BB8DB;
+}
+
+
+.flex-container {
+  display:flex;
+  margin-left: 50px;
+}
+.flex-child {
+  flex:1;
+  height:100vh;
+}
+.flex-child:first-child {
+  margin-right:10px;
+}
+
+.stats {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 150%;
+}
+
+.stats a {
+  text-decoration: none;
+}
+
+.stats a:hover {
+  //color: #B5449C;
+  transition-duration: 0.4s;
+  background-color: #E9D8F6;
+
+.desc3 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 150%;
+
+  /* or 150% */
+
+  color: #9B5CBD;
+}
+
+.wrapper2 {
+  padding: 100px;
+}
+
+
+// everything above this line is css we made
+
+.shadow-effect {
+		    background: #fff;
+		    padding: 50px;
+		    border-radius: 10px;
+		    text-align: center;
+	border:1px solid #ECECEC;
+		    box-shadow: 0 19px 38px rgba(0,0,0,0.10), 0 15px 12px rgba(0,0,0,0.02);
+		}
+		#customers-testimonials .shadow-effect p {
+		    font-family: inherit;
+		    font-size: 30px;
+		    line-height: 2;
+		    margin: ;
+		    font-weight: 300;
+		}
+		.testimonial-name {
+		    margin: -17px auto 0;
+		    display: table;
+		    width: auto;
+		    background: #3190E7;
+		    padding: 9px 35px;
+		    border-radius: 12px;
+		    text-align: center;
+		    color: #fff;
+		    box-shadow: 0 9px 18px rgba(0,0,0,0.12), 0 5px 7px rgba(0,0,0,0.05);
+		}
+		#customers-testimonials .item {
+		    text-align: center;
+		    padding: 150px;
+				margin-bottom:80px;
+		    opacity: .2;
+		    -webkit-transform: scale3d(0.8, 0.8, 1);
+		    transform: scale3d(0.8, 0.8, 1);
+		    -webkit-transition: all 0.3s ease-in-out;
+		    -moz-transition: all 0.3s ease-in-out;
+		    transition: all 0.3s ease-in-out;
+		}
+		#customers-testimonials .owl-item.active.center .item {
+		    opacity: 1;
+		    -webkit-transform: scale3d(1.0, 1.0, 1);
+		    transform: scale3d(1.0, 1.0, 1);
+		}
+		.owl-carousel .owl-item img {
+		    transform-style: preserve-3d;
+		    max-width: 90px;
+    		margin: 30 auto 30px;
+		}
+		#customers-testimonials.owl-carousel .owl-dots .owl-dot.active span,
+#customers-testimonials.owl-carousel .owl-dots .owl-dot:hover span {
+		    background: #3190E7;
+		    transform: translate3d(0px, -50%, 0px) scale(0.7);
+		}
+#customers-testimonials.owl-carousel .owl-dots{
+	display: flex;
+	width: 100%;
+	text-align: center;
+}
+#customers-testimonials.owl-carousel .owl-dots .owl-dot{
+	display: flex;
+}
+		#customers-testimonials.owl-carousel .owl-dots .owl-dot span {
+		    background: #3190E7;
+		    display: flex;
+		    height: 20px;
+		    margin: 0 30px 30px;
+		    transform: translate3d(0px, -50%, 0px) scale(0.3);
+		    transform-origin: 50% 50% 0;
+		    transition: all 250ms ease-out 0s;
+		    width: 20px;
+		}
+
+owl.item {
+  padding: 100px;
+  width: 100px;
+}
